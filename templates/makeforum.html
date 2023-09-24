@@ -1,0 +1,5 @@
+<form method="post">
+    {% csrf_token %}
+    {{forumform.as_p}}
+    <button type="submit" name="makeforum">Make Forum</button>
+</form>
